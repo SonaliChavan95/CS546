@@ -1,0 +1,19 @@
+{
+  "name": "cs-546-lab-8",
+  "version": "1.0.0",
+  "description": "lab 8",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./app.js localhost 3000"
+  },
+  "author": "Sonali Chavan 10459154",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.2.0",
+    "handlebars": "^4.7.6",
+    "nodemon": "^2.0.6"
+  }
+}

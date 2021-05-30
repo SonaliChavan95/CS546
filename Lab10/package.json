@@ -1,0 +1,20 @@
+{
+  "name": "cs-546-lab-10",
+  "version": "1.0.0",
+  "description": "Lab 10: Authentication",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./app.js localhost 3000"
+  },
+  "author": "Sonali Chavan 10459154",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.2.0",
+    "express-session": "^1.17.1",
+    "handlebars": "^4.7.6",
+    "nodemon": "^2.0.6"
+  }
+}

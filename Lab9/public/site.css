@@ -1,0 +1,60 @@
+.is-prime {
+  color: #00E676;
+}
+
+.not-prime {
+  color: #FF3D00;
+}
+
+* {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #f3f3f3;
+  padding-bottom: 65px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+form {
+  width: 50%;
+  display: inline-block;
+}
+
+input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+button[type=submit], input[type=reset] {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #333;
+  color: white;
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
+
+#error-container {
+  color: red;
+}

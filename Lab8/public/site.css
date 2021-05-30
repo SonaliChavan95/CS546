@@ -1,0 +1,86 @@
+* {
+	box-sizing: border-box;
+}
+
+html,
+body {
+	font-size: 14pt;
+}
+
+body {
+	background: #dedede;
+	font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+}
+
+main {
+	max-width: 75%;
+	margin: auto;
+}
+
+h1 {
+	font-size: 2rem;
+}
+
+h2 {
+	font-size: 1.5rem;
+}
+
+h3 {
+	font-size: 1.5rem;
+}
+
+h4 {
+	font-size: 1.25rem;
+}
+
+h5 {
+	font-size: 1.15rem;
+}
+
+h6 {
+	font-size: 1.05rem;
+}
+
+p {
+	font-size: 1rem;
+	line-height: 2;
+}
+
+.search-show-form {
+	max-width: 300px;
+}
+
+.search-show-form .full-width-input {
+	display: block;
+	min-height: 3em;
+	margin: 10px 0;
+	width: 100%;
+}
+
+label {
+	font-weight: bold;
+}
+
+.show-link,
+.show-link:link {
+	color: #228b22;
+}
+
+.show-link:visited {
+	font-style: italic;
+	color: saddlebrown;
+}
+
+.show-link:hover {
+	font-style: normal;
+	font-weight: 700;
+}
+
+.show-link:active {
+	color: #ff0000;
+}
+
+.error 
+  span {
+    padding: 5px;
+  }
